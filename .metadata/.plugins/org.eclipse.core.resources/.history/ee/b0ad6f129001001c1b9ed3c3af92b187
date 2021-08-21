@@ -1,0 +1,10 @@
+package com.nokia.api.dto;
+
+import com.nokia.api.entity.Order;
+
+public class TransactionRequest {
+
+	private Order order;
+	private Payment payment;
+	
+}

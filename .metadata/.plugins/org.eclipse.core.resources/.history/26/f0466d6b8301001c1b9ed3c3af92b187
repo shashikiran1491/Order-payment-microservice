@@ -1,0 +1,18 @@
+package com.nokia.api.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/")
+public class PaymentController {
+
+	@Autowired
+	PaymentService paymentService;
+	
+	@PostMapping("/doPayment")
+	public Payment doPayment() {
+		
+		
+	}
+	
+}

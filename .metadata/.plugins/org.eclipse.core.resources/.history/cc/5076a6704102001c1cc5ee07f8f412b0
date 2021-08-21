@@ -1,0 +1,20 @@
+spring:
+  h2:
+    console:
+      enabled: true  
+  application:
+    name: order-service
+    
+  config:
+    import: optional:configserver:http://localhost:9193    
+server:
+  port: 9191
+  
+logging:
+  file:
+    name: C:\\logs\\microservice.log
+
+      
+      
+    
+    

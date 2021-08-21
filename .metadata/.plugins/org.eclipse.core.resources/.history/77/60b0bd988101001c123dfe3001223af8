@@ -1,0 +1,13 @@
+package com.nokia.api.service;
+
+import org.springframework.stereotype.Service;
+
+import com.nokia.api.repository.PaymentRepository;
+
+@Service
+public class PaymentService {
+	
+	
+	private PaymentRepository paymentRepo;
+
+}

@@ -1,0 +1,15 @@
+spring:
+  h2:
+    console:
+      enabled: true  
+  application:
+    name: order-service
+server:
+  port: 9191
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    
+    

@@ -1,0 +1,20 @@
+package com.nokia.api.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name="PAYMENT")
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Payment {
+
+	private int paymentId;
+	private String paymentStatus;
+	private int transactionId;
+	
+}

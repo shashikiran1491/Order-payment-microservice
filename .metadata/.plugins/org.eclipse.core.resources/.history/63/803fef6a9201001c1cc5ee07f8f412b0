@@ -1,0 +1,26 @@
+package com.nokia.api.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.nokia.api.dto.Payment;
+import com.nokia.api.dto.TransactionRequest;
+import com.nokia.api.entity.Order;
+import com.nokia.api.repository.OrderRepository;
+
+@Service
+public class OrderService {
+
+ @Autowired	
+ private OrderRepository orderRepo;
+ 
+ 
+ public Order saveOrder(TransactionRequest request) {
+	 Order order = request.getOrder();
+	 Payment payment = request.getPayment();
+	 payment.setOrderId(order.getId());
+	 payment.setAmount(order.getQty()*order.getPrice());
+	 return orderRepo.save(order);	 
+ }
+	
+}

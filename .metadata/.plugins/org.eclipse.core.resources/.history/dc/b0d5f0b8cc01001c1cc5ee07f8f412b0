@@ -1,0 +1,17 @@
+spring:
+  h2:
+    console:
+      enabled: true  
+  application:
+    name: order-service
+    
+
+server:
+  port: 9191
+  
+ 
+
+      
+      
+    
+    

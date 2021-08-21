@@ -1,0 +1,6 @@
+package com.nokia.apiGateway.controller;
+
+@RestController
+public class FallbackController {
+
+}

@@ -1,0 +1,5 @@
+package com.nokia.api.repository;
+
+public interface OrderRepository extends JPARepository {
+
+}

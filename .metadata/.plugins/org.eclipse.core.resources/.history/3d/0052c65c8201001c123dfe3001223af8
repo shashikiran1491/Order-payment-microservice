@@ -1,0 +1,20 @@
+package com.nokia.api.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.nokia.api.entity.Payment;
+import com.nokia.api.repository.PaymentRepository;
+
+@Service
+public class PaymentService {
+	
+	@Autowired
+	private PaymentRepository paymentRepo;
+	
+	
+	public Payment savePayment(Payment payment) {
+		return paymentRepo.save(payment);
+	}
+
+}
