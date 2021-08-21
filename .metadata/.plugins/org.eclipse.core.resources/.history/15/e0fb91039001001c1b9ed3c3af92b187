@@ -1,5 +1,0 @@
-package com.nokia.api.dto;
-
-public class TransactionRequest {
-
-}

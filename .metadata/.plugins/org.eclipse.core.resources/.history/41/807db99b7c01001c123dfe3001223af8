@@ -1,8 +1,0 @@
-package com.nokia.api.controller;
-
-
-@RestController
-@RequestMapping("/")
-public class OrderController {
-
-}

@@ -1,5 +1,0 @@
-package com.nokia.api.repository;
-
-public class OrderRepository {
-
-}

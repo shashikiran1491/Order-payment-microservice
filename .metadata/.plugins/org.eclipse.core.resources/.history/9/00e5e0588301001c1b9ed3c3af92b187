@@ -1,6 +1,0 @@
-package com.nokia.api.controller;
-
-@RestController
-public class PaymentController {
-
-}

@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    config:
-      uri:
-      - http://localhost:9193
-      
-  config:
-    import: optional:configserver  

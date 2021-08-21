@@ -1,6 +1,0 @@
-package com.nokia.api.service;
-
-@Service
-public class PaymentService {
-
-}
